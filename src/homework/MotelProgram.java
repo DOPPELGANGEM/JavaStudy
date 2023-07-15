@@ -1,4 +1,4 @@
-package exercise.array;
+package homework;
 
 import java.io.BufferedReader;
 import java.io.IOException;

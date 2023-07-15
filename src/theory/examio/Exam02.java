@@ -17,7 +17,7 @@ public class Exam02 {
 		try {
 			fis = new FileInputStream(file);
 			int data = 0;
-			while((data = fis.read()) != -1) { //-1 : EOF(End Of File)
+			while((data = fis.read()) != -1) { //-1 : EOF(End Of File) => 더이상읽을수있는 데이터가없음
 				System.out.print((char)data);
 			}
 		} catch(IOException e) {

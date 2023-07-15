@@ -17,7 +17,8 @@
 <h3>💡 Eclipse 설정</h3>
 <p>
 [Eclipse FOMMATER 설정](https://jhleed.tistory.com/45) <br> 
-[Eclipse 단축키 수정 | System.out.printf()](https://yegenie2.tistory.com/10) <br> 
+[Eclipse 단축키 수정 | System.out.printf()](https://yegenie2.tistory.com/10) <strong>System.out.printf(${word_selection}${});${cursor}</strong><br> 
+[Eclipse 단축키 수정 | System.out.print()](https://binny.tistory.com/116) <strong>System.out.print(${cursor});</strong><br>
 [Eclipse 속도 올리기!](https://itmoon82.tistory.com/21) <br>
 [Eclipse 실행히스토리삭제](https://hjjungdev.tistory.com/8)
 </p>
