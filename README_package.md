@@ -43,7 +43,7 @@
 <hr>
 
 <h3>3. Java I/O 패키지</h3>
-<p><a href="" target="_blank">[API Document]</a> (https://docs.oracle.com/en/java/javase/13/docs/api/java.base/java/io/package-summary.html)<br> [Java-IO 패키지 주요 클래서 및 설명 참고 URL] (https://velog.io/@ljs0429777/Java-IO)</p>
+<p>[API Document] (https://docs.oracle.com/en/java/javase/13/docs/api/java.base/java/io/package-summary.html)<br> [Java-IO 패키지 주요 클래서 및 설명 참고 URL] (https://velog.io/@ljs0429777/Java-IO)</p>
 <p>간단하게 말하면 <strong>데이터스트림, 직렬화 및 파일 시스템을 통한 시스템 입력 및 출력제공</strong> 이다. 즉 I/O 패키지 안에는 파일 입출력과 관련된 클래스들로 구성되어 있다는 의미기도하다.</p>
 <h4>👀 바이트 단위 스트림</h4>
 <ul>
