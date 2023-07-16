@@ -9,8 +9,8 @@
   <li>모든 클래스는 반드시 하나의 패키지에 속해야한다</li>
   <li>패키지 .을 구분자로 하여 계층구조로 구성할 수 있다.</li>
 </ul>
-
 <hr>
+
 <h2>🎉 자바의 기본 패키지(java.lang, java.util)</h2>
 <h3>1. java.lang 패키지</h3>
 <p>자바 프로그램의 기본적인 클래스를 담고 있는 패키지</p>
@@ -40,9 +40,28 @@
 <p><strong>List (컬렉션 프레임워크:객체를 수집해서 저장하는 역할)</strong><br>: ArrayList, Vector, LinkedList(구현클래스) <br>: 객체를 일렬로 늘어놓은 구조 <br>: 순서를 유지하고 저장, 중복 저장 가능</p>
 <p><strong>Set (컬렉션 프레임워크:객체를 수집해서 저장하는 역할)</strong><br>: HashSet, TreeSet(구현클래스) <br>: 순서를 유지하지 않고 저장, 중복 저장 안됨</p>
 <p><strong>Map (컬렉션 프레임워크:객체를 수집해서 저장하는 역할)</strong><br>: HashMap, HashTable, TreeMap, Properties (구현 클래스) <br>: 키와 값의 쌍으로 저장 <br>: 키는 중복 저장 안 됨</p>
+<hr>
 
-
-
-
-
-
+<h3>3. Java I/O 패키지</h3>
+<p>[API Document] (https://docs.oracle.com/en/java/javase/13/docs/api/java.base/java/io/package-summary.html) <br> [Java-IO 패키지 주요 클래서 및 설명 참고 URL] (https://velog.io/@ljs0429777/Java-IO)</p>
+<p>간단하게 말하면 <strong>데이터스트림, 직렬화 및 파일 시스템을 통한 시스템 입력 및 출력제공</strong> 이다. 즉 I/O 패키지 안에는 파일 입출력과 관련된 클래스들로 구성되어 있다는 의미기도하다.</p>
+<h4>👀 바이트 단위 스트림</h4>
+<ul>
+  <li>InputStream, OutputStream 둘다 바이트 기반 입출력 스트림의 최상위 클래스로 추상 클래스이다. <br>관련된 모든 바이트 기반 입출력 스트림은 이 클래스를 상속받아서 만들어진다.</li>
+  <li>바이트 단위로 데이터를 전송하며 입출력 대상에 따라 제공하는 클래스가 다르다.</li>
+  <li>그림, 멀티미디어, 문자 등 모든 종류의 데이터를 주고 받을 수가 있다.</li>
+</ul>
+<h4>👀 문자 단위 스트림</h4>
+<ul>
+  <li>Reader, Writer 둘다 데이터 기반 입출력의 최상위 클래스이다. 관련된 모든 텍스트 <br>기반 입출력은 이 클래스를 상속받아서 만들어진다.</li>
+  <li>문자데이터를 입출력할 때 사용하는 문자기반의 스트림이다.</li>
+  <li>오로지 문자 데이터를 주고 받기 위해 특화되엇다.</li>
+</ul>
+<h4>👀 보조스트림</h4>
+<p>스트림의 기능을 보완하기 위해 나온 녀석이다.(입출력 성능 속도 향상, 데이터 포맷 등)</p>
+<ul>
+  <li>실제 데이터를 주고 받지 않는다.</li>
+  <li>데이터를 주고 받을 수 없기 때문에 먼저 스트림을 생성한 후 사용해야 한다.</li>
+  <li>밑에 실험한 코드가 보조 스트림 활용 예시이다.</li>
+  <blockquote>DataInputStream dataInputStream = new DataInputStream(new FileInputStream("test.txt"));</blockquote>
+</ul>
