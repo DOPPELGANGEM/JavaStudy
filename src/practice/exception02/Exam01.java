@@ -1,4 +1,4 @@
-package theory.exception02;
+package practice.exception02;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;

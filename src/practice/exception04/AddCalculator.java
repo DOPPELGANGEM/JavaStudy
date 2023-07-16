@@ -1,4 +1,4 @@
-package theory.exception04;
+package practice.exception04;
 
 public class AddCalculator {
 	public int add(int n1, int n2) {

@@ -1,4 +1,4 @@
-package theory.exception03;
+package practice.exception03;
 
 import java.io.IOException;
 

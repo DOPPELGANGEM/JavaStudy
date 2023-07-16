@@ -1,4 +1,4 @@
-package theory.exception05;
+package practice.exception05;
 
 public class AddCalculator {
 	public int add(int n1, int n2) throws ResultScopeException {

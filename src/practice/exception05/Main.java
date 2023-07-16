@@ -1,4 +1,4 @@
-package theory.exception04;
+package practice.exception05;
 
 /*
  * Exception
@@ -15,12 +15,10 @@ public class Main {
 		AddCalculator addCalc = new AddCalculator();
 		
 		int ret = 0;
-		
 		try {
 			ret = addCalc.add(1,-10);
-		}catch(ResultScopeException e) {
+		} catch (ResultScopeException e) {
 			e.printStackTrace();
-			System.out.println(e.getMessage());
 		}
 		System.out.println(ret);
 		

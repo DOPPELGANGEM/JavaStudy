@@ -1,4 +1,4 @@
-package theory.examio;
+package practice.examio;
 
 import java.io.File;
 import java.io.FileNotFoundException;

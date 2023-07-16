@@ -152,7 +152,7 @@
  <div><img src="images/try_catch.png" alt=""></div>
  <h4>Exception은 두 가지 성격으로 나뉩니다.</h4>
  <ul>
-  <li>Checked Exceptions (반드시 처리해야 하는 예외)</li>
+  <li>Exception (Checked Exceptions : 반드시 처리해야 하는 예외)</li>
   <li>Runtime Exceptions (반드시 처리해야 하지 않아도 되는 예외)</li>
 </ul>
 <h4>Java Exception 종류</h4>

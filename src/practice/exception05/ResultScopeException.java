@@ -1,4 +1,4 @@
-package theory.exception05;
+package practice.exception05;
 
 public class ResultScopeException extends Exception {
 	public ResultScopeException(String msg) {
