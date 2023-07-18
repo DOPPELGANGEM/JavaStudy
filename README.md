@@ -119,31 +119,44 @@
 </div>
 <hr>
 
-<div class="section">
-  <h2>배열</h2>
-  <h5>✔ 배열의 선언과 할당</h5>
-  <p>
-    int nums []; // 배열의선언 <br>
-    nums = new int[10]; //배열의할당 <br>
-    nums는 <u>배열의 주소</u>이고 <strong>[]</strong>는 연산이고 숫자가 들어가서 1칸씩 이동해 값을 가져옴. <br>
-  </p>
-  <h5>✔ 배열의 특징</h5>
-  <p>
-    배열의 할당 후 값 초기화를 하지 않으면 자료형의 기본값이 들어감 <br>
-    int의 기본값 : 0, String의 기본값 : null <br>
-    new 하면은 memory에 공간이 할당! <br>
-    레퍼런스 변수 = 참조 변수 <br>
-    ex) 레퍼런스 변수 int Array 선언 => int(배열 타입) intArray(배열에 대한 레퍼런스 변수) [](배열선언); => int intArray[]; <br>
-    ex) 배열생성 intArray(배열에 대한 레퍼런스 변수)  = new(배열생성) int(타입) [5](원소개수); => intArray = new int [5]; <br>
-    String str; => 주소를 저장하는 참조변수
-  </p>
-  <h5>✔ 배열 선언 & 초기화</h5>
-  <div>
-    <img src="images/array_ex.png" alt="">
-  </div>
+<h2>배열</h2>
+<h5>✔ 배열의 선언과 할당</h5>
+<p>
+  int nums []; // 배열의선언 <br>
+  nums = new int[10]; //배열의할당 <br>
+  nums는 <u>배열의 주소</u>이고 <strong>[]</strong>는 연산이고 숫자가 들어가서 1칸씩 이동해 값을 가져옴. <br>
+</p>
+<h5>✔ 배열의 특징</h5>
+<p>
+  배열의 할당 후 값 초기화를 하지 않으면 자료형의 기본값이 들어감 <br>
+  int의 기본값 : 0, String의 기본값 : null <br>
+  new 하면은 memory에 공간이 할당! <br>
+  레퍼런스 변수 = 참조 변수 <br>
+  ex) 레퍼런스 변수 int Array 선언 => int(배열 타입) intArray(배열에 대한 레퍼런스 변수) [](배열선언); => int intArray[]; <br>
+  ex) 배열생성 intArray(배열에 대한 레퍼런스 변수)  = new(배열생성) int(타입) [5](원소개수); => intArray = new int [5]; <br>
+  String str; => 주소를 저장하는 참조변수
+</p>
+<h5>✔ 배열 선언 & 초기화</h5>
+<div>
+  <img src="images/array_ex.png" alt="">
 </div>
 <hr>
+<h2>객체배열</h2>
+<p>객체 배열이란,, <u>객체를 저장하는 배열</u>로, 배열의 자료형을 <strong>클래스명(사용자 정의 자료형)</strong>으로 지정하여 활용된다.</p>
+<div><img src="images/obj_array.png" alt=""></div>
+<p>상단의 배열은 일반정수형 배열 변수 intArr을 생성하고, 그 크기는 5만큼 지정해준것이고 <br> 하단배열은 정의된 Example객체에 대해 exArr이라는 객체 배열을 생성하고 그 크기는 5만큼 지정해 준것이다. 하나의 객체 자체를 배열의 인덱스로 본것!</p>
+<div><img src="images/obj_array2.png" alt=""></div>
+<p>객체배열의 선언은 위와 같고 일반자료형의 선언과 딱히 다른점은 없다. <u>자료형 부분에 클래스명을 적어주는 차이</u>만 있을뿐이다.</p>
+<div>
+  <img src="images/obj_array3.png" alt=""><br>
+  <img src="images/obj_array4.png" alt=""><br>
+  <img src="images/obj_array5.png" alt="">
+</div>
+<div><img src="images/obj_array6.png" alt=""></div>
+<p>그래서 객체 배열은 메모리상에서 참조가 위 그림처럼 되어있고 일반 배열의 참조와비슷하다 보면된다. 차이점은 <br>일반 배열은 <u>동일한 자료형</u>으로만 이루어져있어 heap에 선언된 자료형 크기로 배열을 이루고 있지만 <br>객체 배열은 다른 자료형들(String, double, int 등등)로 이루어질 수 있기에 각기 다른 자료형 크기로 배열이 이루어져있다.</p>
 
+
+<hr>
 <div class="section">
  <h2>예외처리구문 Try-Catch문</h2>
  <h4>예외처리(Exception)란?</h4>
