@@ -507,27 +507,3 @@ System.out.println(431) : 숫자<br>
     <p>✨하여 출력결과는 위쪽의 이미지와 같이 각 객체가 다른 객체(pos1, pos2)를 참조해서 각각 다른 객체의 주소와 this를 활용해 값이 저렇게 다르게 하나의 메서드를 이용해 객체2개에 대한 값을 출력해 주는 것을 볼 수 있다.</p>
   </div>
   <hr>
-  
-  <h2>컬렉션 프레임워크</h2>
-  <p>컬렉션은 다수의 데이터, 프레임워크는 표준화된 프로그래밍 방식을 의미한다. 따라서 컬렉션 프레임워크란 데이터 그룹을 저장하는 클래스들을 표준화한 설계이다. <br>컬렉션 프레임워크를 활용하면 객체 지향적이고 재사용성이 높은 코드를 작성할 수 있다.</p>
-  <div>
-    <img src="images/collection.png" alt="">
-    <img src="images/collection_interface.png" alt="">
-  </div>
-  <h4>핵심 인터페이스</h4>
-  <h5>1.List</h5>
-  <ul>
-    <li>순서가 있는 데이터의 집합으로 데이터의 중복을 허용한다.</li>
-    <li>구현클래스 <br>=> ArrayList, LinkedList, Stack, Vector ...</li>
-  </ul>
-  <h5>2.Set</h5>
-  <ul>
-    <li>순서를 유지하지 않는 데이터의 집합,데이터의 중복을 허용하지 않는다.</li>
-    <li>구현클래스 <br>=> HashSet, TreeSet ...</li>
-  </ul>
-  <h5>3.Map</h5>
-  <ul>
-    <li>키와 값의 쌍(pair)으로 이루어진 데이터 군집으로 순서는 유지되지 않는다.</li>
-    <li>키는 중복을 허용하지 않지만, 값은 중복을 허용한다.</li>
-    <li>구현클래스 <br>=> HashMap, TreeMap, HashTable, Properties</li>
-  </ul>
